@@ -151,7 +151,7 @@ async function verstuur(){
       Scherm: ${scherm==='geen'?'maakt niet uit':schermDB}${m2?(' · '+m2+' m²'):''}</p>
       <div style="margin-top:24px;border-top:1px solid #e3e8f0;padding-top:16px">
         ${logo?`<img src="${logo}" alt="Crystal Screen Events" style="max-width:150px;max-height:48px;display:block;margin-bottom:10px">`:''}
-        <div style="font-size:13px;color:#445;line-height:1.5"><b>Crystal Screen Events</b><br>Romeinenweg 47 G, 5349 AL Oss<br>06 13 03 30 10 · info@crystalscreenevents.nl</div>
+        <div style="font-size:13px;color:#445;line-height:1.5"><b>Crystal Screen Events</b><br>Romeinenweg 47 G, 5349 AL Oss<br>06 31 33 31 19  · info@crystalscreenevents.nl</div>
       </div>
     </div>`;
     await sb.functions.invoke('send-email', { body:{ to: email, subject:'We hebben je aanvraag ontvangen — Crystal Screen Events', html } });
